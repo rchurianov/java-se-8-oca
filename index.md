@@ -1,26 +1,18 @@
 
 # Contents
 
-## Https setup
+- [Https setup](https://rchurianov.github.io/nuovo-buendfa/https)
 
-https://rchurianov.github.io/nuovo-buendfa/https
+- [Git Configuration](https://rchurianov.github.io/nuovo-buendfa/git_configuration)
 
-## Git Configuration
+- [Git Workflows](https://rchurianov.github.io/nuovo-buendfa/git_wf)
 
-https://rchurianov.github.io/nuovo-buendfa/git_configuration
+- [Java 8 Preparation](https://rchurianov.github.io/nuovo-buendfa/java8_exam)
 
-## Git Workflows
+- [Spring Integration Basics](https://rchurianov.github.io/nuovo-buendfa/spring_int)
 
-https://rchurianov.github.io/nuovo-buendfa/git_wf
+- [WebSphere Setup](https://rchurianov.github.io/nuovo-buendfa/websphere_setup)
 
-## Java 8 Preparation
+## Heading 2
 
-https://rchurianov.github.io/nuovo-buendfa/java8_exam
-
-## Spring Integration Basics
-
-https://rchurianov.github.io/nuovo-buendfa/spring_int
-
-## WebSphere Setup
-
-https://rchurianov.github.io/nuovo-buendfa/websphere_setup
+### Heading 3
