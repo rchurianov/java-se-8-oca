@@ -52,3 +52,22 @@ Is Java "pass by value" or "pass by reference"?
 
 		1.1.4 **Parameters**
 		method parameters
+
+	1.2 Naming conventions and rules
+
+		- variable names are case-sensitive
+		- can start with:
+			- letter
+			- dollar sign "$"
+			- underscore character "_"
+		- convetion: start with a letter
+		- convetion: "$" is never used
+			- reserved for auto-generate names
+		- convetion: "_" is never used
+		- subsequent characters (next after first):
+			- letters
+			- digits
+			- "$" - dollar signs
+			- "_" - underscore characters
+		- naming constants:
+			static final int NUM_GEARS = 6;
