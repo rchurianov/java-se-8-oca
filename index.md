@@ -1,61 +1,26 @@
-# Git Cheat Sheet
 
-## Branches
+# Contents
 
-List branches on a project
-```
-git branch
-```
+## Https setup
 
-Change branch
-```
-git checkout <branchname>
-```
+https://rchurianov.github.io/nuovo-buendfa/https
 
-Differences between the tips of two branches
-```
-git diff branch_1..branch_2
-```
+## Git Configuration
 
-Show differences between tips of two branches
-```
-git difftool branc_1..branch_2
-// two dots between branches' names are important!
-```
+https://rchurianov.github.io/nuovo-buendfa/git_configuration
 
-## Git Commit Workflow
+## Git Workflows
 
-1. Add changed files to the index
-```
-git add *
-```
-This will add all changed files as expected.
+https://rchurianov.github.io/nuovo-buendfa/git_wf
 
-2. Commit changes with a header message
-```
-git commit -m "Added this and that. Removed this and that"
-```
+## Java 8 Preparation
 
-## Git Merge Two Branches Workflow
+https://rchurianov.github.io/nuovo-buendfa/java8_exam
 
-1. Switch to the branch you want the result to stay in
-```
-git checkout master
-```
+## Spring Integration Basics
 
-2. Try merge - get conflict to resolve
-```
-git merge <another_branch>
-```
+https://rchurianov.github.io/nuovo-buendfa/spring_int
 
-3. Start mergetool to resolve conflicts
-```
-git mergetool
-```
+## WebSphere Setup
 
-4. Merge files manually with mergetool of choice
-
-5. Commit the changes
-```
-git commit -m "After merge changes"
-```
+https://rchurianov.github.io/nuovo-buendfa/websphere_setup
