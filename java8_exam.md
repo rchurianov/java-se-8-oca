@@ -158,3 +158,35 @@ float | 32-bit | - | - | -
 double | 64-bit | - | - | -
 boolean | 1 bit (?) | - | - | true / false
 char | 16-bit | - | - | ['\u0000', '\uffff']
+
+
+Good programming style:
+
+- do not rely on default values
+
+**Local Variables**
+
+Compiler never assigns default values to local variables.
+
+##### Literals
+
+- integer literal
+	- _long_ if it ends with ```L``` or ```l```
+	- _int_ otherwise
+	- _Usage_
+		- ```L``` recommended
+
+integer literal can be expressed by three number systems:
+- decimal
+	- base 10
+- hexadecimal
+	- prefix ```0x```
+- binary (since Java SE 7)
+	- prefix ```0b```
+
+Examples:
+```
+int cripple = 1919;
+int hexCripple = 0x1A1F;
+int biCripple = 0b11011;
+```
