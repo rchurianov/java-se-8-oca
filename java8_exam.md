@@ -61,16 +61,16 @@ method parameters
 - can start with:
 	- letter
 	- dollar sign "$"
-	- underscore character "_"
+	- underscore character "\_"
 - convetion: start with a letter
 - convetion: "$" is never used
 	- reserved for auto-generate names
-- convetion: "_" is never used
+- convetion: "\_" is never used
 - subsequent characters (next after first):
 	- letters
 	- digits
 	- "$" - dollar signs
-	- "_" - underscore characters
+	- "\_" - underscore characters
 - naming constants:
 	static final int NUM_GEARS = 6;
 
@@ -170,6 +170,7 @@ Compiler never assigns default values to local variables.
 
 ##### Literals
 
+###### Integer Literals
 - integer literal
 	- _long_ if it ends with ```L``` or ```l```
 	- _int_ otherwise
@@ -190,3 +191,97 @@ int cripple = 1919;
 int hexCripple = 0x1A1F;
 int biCripple = 0b11011;
 ```
+
+I should probably do more of Stepik.
+Well, I should do more in general.
+At least I might become a monkey programmer.
+
+###### Floating-Point Literals
+
+- of type ```float```
+- ends with ```F``` or ```f```
+- of type ```double```
+- ends with ```D``` or ```d```
+
+- can be expressed with ```E``` or ```e``` (for scientific notation)
+
+```
+double d` = 123.4;
+// same value as d1, but in scientific notation
+double d2 = 1.234e2;
+
+float f1 = 123.4f;
+```
+
+###### Character and String Literals
+
+- ```char``` and ```String``` an contain any UTF-16 characters.
+
+```
+'\u0108'
+
+"S\u00ED Se\u00F1or"
+```
+
+- 'single quotes' for ```char```
+- "double quotes" for ```String```
+
+- \b = backspace
+- \t = tab
+- \n = line feed
+- \f = form feed
+- \r = carriage return
+- \" = double quote
+- \' = single quote
+- \\ = backslash
+
+- ```null```
+    - can not be assigned to primitive types
+
+###### Class Literal
+
+```
+String.class
+```
+
+It is an object of class ```Class```
+
+
+##### Using Underscore Characters in Numeric Literals
+
+A user can separate groups of digits in a literals by "\_".
+
+Wrong to place an underscore:
+
+- at the beginning or end of a number
+- adjacent to a decimal point in a floating point literal
+- prior to an ```F``` or ```L``` suffix
+- in positions where a string of digits is expected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+....
