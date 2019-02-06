@@ -258,14 +258,67 @@ Wrong to place an underscore:
 - prior to an ```F``` or ```L``` suffix
 - in positions where a string of digits is expected
 
+#### Arrays
 
+##### Array
 
+- container
+- holds **fixed** number of values
+- single type
+- length established at creation
+- can be indexed
+- indexing start at 0
 
+Declaration:
 
+```
+int[] Array;
+```
 
+Creation:
 
+``` Java
+1. new
+int[] secondArray = new int[19];
 
+2. explicitly specify values
+int[] thirdArray = new int {100, 200, 300};
+```
 
+##### Multidimensional array
+
+- is an array of arrays
+- each row might have a different length
+
+##### Copying arrays
+
+- ```System.arraycopy```
+
+```Java
+public static void arraycopy(Object src, int srcPos, Object dest, int destPos, int Length)
+```
+
+##### Manipulating arrays
+
+```
+java.util.Arrays
+```
+
+```Java
+char[] copyFrom = {'d', 'e', 'c', 'a', 'f', 'f', 'e', 'i', 'n', 'a', 't', 'e', 'd'};
+char[] copyTo = java.util.Arrays.copyOfRange(copyFrom, 2, 9);
+```
+
+- first index is inclusively
+- second index is exclusively
+
+| operation | java.util.Arrays method     |
+| :------------- | :------------- |
+| search by value, get index       | binarySearch       |
+| compare | equal |
+|fill with one value | fill |
+| sort in ascending order | sort |
+| sort in ascending order | parallel sort |
 
 
 
