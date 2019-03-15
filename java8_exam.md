@@ -146,7 +146,7 @@ String s = "Quick brown fox";
 automatically create a String object
 
 - immutable
-	- once created, thair values can not be changed
+	- once created, their values can not be changed
 
 Data Type | Length | Singed/Unsigned | Precision | Range
 --------- | ------ | --------------- | --------- | -----
@@ -319,6 +319,75 @@ char[] copyTo = java.util.Arrays.copyOfRange(copyFrom, 2, 9);
 |fill with one value | fill |
 | sort in ascending order | sort |
 | sort in ascending order | parallel sort |
+
+#### Variables. Questions and Exercises
+
+##### Questions
+
+1. The term "instance variable" is another name for non-static field of a class.
+2. The term "class variable" is another name for static field of a class.
+3. A local variable stores temporary state; it is declared inside a method/function.
+4. A variable declared within the opening and closing parenthesis of a method signature is called a parameter.
+5. Eight primitive data types: byte, short, int, long, double, float, char, boolean.
+6. Character strings are represented by class java.lang.String.
+7. An Array is a container object, that holds a fixed number of values of a single type.
+
+##### Exercises
+
+1. Try creating illegal names. Check compiler errors.
+
+Error:
+Error:(6, 9) java: not a statement
+
+2. Print uninitialized values. Print uninitialized local variable - check error.
+
+2.b
+Error:(14, 50) java: variable i might not have been initialized
+
+### Item 2. Define the structure of a Java class
+
+ - comments
+ - class definition
+ - the ```main``` method
+
+Comment types
+
+- line
+```
+/* text */
+
+// text
+```
+
+- documentation
+```
+/**
+ * documentation
+ * documentation
+ * documentation
+ */
+```
+used by ```javadoc``` tool to automatically generate documentation
+
+Class definition
+
+```
+class Name {
+    ...
+}
+```
+
+The ```main``` Method
+```
+public static void main(String[] args) {
+
+}
+```
+
+- every application must contain ```main``` method;
+
+
+
 
 
 
