@@ -14,8 +14,8 @@ null is not an instance of anything
 | equality | == != |
 | bitwise AND | & |
 | bitwise exclusive OR | ^ |
-| bitwise inclusive OR | | |
+| bitwise inclusive OR | &#124; |
 | logical AND | && |
-| logical OR | || |
+| logical OR | &#124;&#124; |
 | ternary | ? : |
-| assignment | = += -= *= /= %= &= ^= |= <<= >>= >>>= |
+| assignment | = += -= *= /= %= &= ^= &#124;= <<= >>= >>>= |
