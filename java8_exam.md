@@ -148,16 +148,16 @@ automatically create a String object
 - immutable
 	- once created, their values can not be changed
 
-Data Type | Length | Singed/Unsigned | Precision | Range
---------- | ------ | --------------- | --------- | -----
-byte | 8-bit | signed | - | [-128, 127]
-short | 16-bit | signed | - | [-32768, 32767]
-int | 32-bit | signed | - | [-2^31, 2^31-1]
-long | 64-bit | signed | - | [-2^63, 2^63-1]
-float | 32-bit | - | - | -
-double | 64-bit | - | - | -
-boolean | 1 bit (?) | - | - | true / false
-char | 16-bit | - | - | ['\u0000', '\uffff']
+Data Type | Length    | Singed/Unsigned | Precision | Range                |
+--------- | --------- | --------------- | --------- | -------------------- |
+byte      | 8-bit     | signed          | -         | [-128, 127]          |
+short     | 16-bit    | signed          | -         | [-32768, 32767]      |
+int       | 32-bit    | signed          | -         | [-2^31, 2^31-1]      |
+long      | 64-bit    | signed          | -         | [-2^63, 2^63-1]      |
+float     | 32-bit    | -               | -         | -                    |
+double    | 64-bit    | -               | -         | -                    |
+boolean   | 1 bit (?) | -               | -         | true / false         |
+char      | 16-bit    | -               | -         | ['\u0000', '\uffff'] |
 
 
 Good programming style:
