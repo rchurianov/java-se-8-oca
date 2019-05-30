@@ -1,18 +1,52 @@
 
 # Contents
 
-- [Https setup](https://rchurianov.github.io/nuovo-buendfa/https)
+## Java 8 OCA Preparation
 
-- [Git Configuration](https://rchurianov.github.io/nuovo-buendfa/git_configuration)
+- [General Exam Notes](https://rchurianov.github.io/java-se-8-oca/java8_exam)
 
-- [Git Workflows](https://rchurianov.github.io/nuovo-buendfa/git_wf)
+- [Control Flow Statements](https://rchurianov.github.io/java-se-8-oca/control_flow)
 
-- [Java 8 Preparation](https://rchurianov.github.io/nuovo-buendfa/java8_exam)
+- [Decision Constructs](https://rchurianov.github.io/java-se-8-oca/decision-constructs)
 
-- [Spring Integration Basics](https://rchurianov.github.io/nuovo-buendfa/spring_int)
+- [Expressions](https://rchurianov.github.io/java-se-8-oca/expressions)
 
-- [WebSphere Setup](https://rchurianov.github.io/nuovo-buendfa/websphere_setup)
+- [Classes](https://rchurianov.github.io/java-se-8-oca/java_classes)
 
-## Heading 2
+- [Lambdas](https://rchurianov.github.io/java-se-8-oca/lambdas)
 
-### Heading 3
+- [Nested Classes](https://rchurianov.github.io/java-se-8-oca/nested_classes)
+
+- [Operators](https://rchurianov.github.io/java-se-8-oca/operators)
+
+- [Packages](https://rchurianov.github.io/java-se-8-oca/packages)
+
+## Https Setup
+
+- [Https setup](https://rchurianov.github.io/java-se-8-oca/https)
+
+## Git Setup
+
+- [Git Configuration](https://rchurianov.github.io/java-se-8-oca/git_configuration)
+
+- [Git Workflows](https://rchurianov.github.io/java-se-8-oca/git_wf)
+
+## Spring
+
+- [Spring Integration Basics](https://rchurianov.github.io/java-se-8-oca/spring_int)
+
+## WebSphere
+
+- [WebSphere Setup](https://rchurianov.github.io/java-se-8-oca/websphere_setup)
+
+## Databases
+
+- [Index](https://rchurianov.github.io/java-se-8-oca/db_index)
+
+## Mardown Example
+
+- [Markdown Example](https://rchurianov.github.io/java-se-8-oca/markdown_example)
+
+## React Native
+
+- [React Native Project](https://rchurianov.github.io/java-se-8-oca/react_native_project)
