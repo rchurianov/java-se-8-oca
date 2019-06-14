@@ -26,6 +26,8 @@ Prefix version *++result* evaluates to incremented version.
 
 Postfix version *result++* evaluates to the original value when used in a larger expression.
 
+Postfix *result++* will increment *result* only after the outer most expression is executed.
+
 
 # Questions and Exercises
 
@@ -102,3 +104,40 @@ class PrePostDemo {
 
 Prefix evaluates to incremented value.
 Postfix evaluates to current value.
+
+3. System.out.println("Some Text " + 10 != 5);
+
+Operator precedence: binary "+" has higher precedence than inequality operator "!=".
+First step of expression evaluation: "Some Text 10". 10 is implicitly converted to String.
+Second step: "Some Text 10" != 5. I.e. comparison operator is executed.
+Comparison fails because int can not be compared to String, and it is not implicitly converted in this case.
+This is checked (surprisingly) during compile time.
+
+! Should study the list of expressions that are evaluated during compile time.
+
+4. System.out.println(-a++);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---

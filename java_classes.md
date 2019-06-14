@@ -199,6 +199,10 @@ public class Whatever {
 
 - calling non-final methods during instance initialization can cause problems
 
+### Overloaded methods
+
+Which overloaded method will be called is decided during compilation.
+
 ### "Destruction"
 
 Well, even though Java does not support direct object destruction, we can "mark"
