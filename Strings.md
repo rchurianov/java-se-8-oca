@@ -17,11 +17,56 @@
 Each of wrapper classes (Byte, Short, Integer, Long, Float, Double) have a class method (a static method) that converts a Strings to a number of that type.
 Method signature:
 ```Java
-Integer Integer.valueOf(String s);
+public static Integer Integer.valueOf(String s);
 ```
 
-Each of wraper classes (Byte, Short, Integer, Long, Float, Double) also provide a method of type *parseXXXX(String s)* that converts Strings to primitive numbers.
+Each of wrapper classes (Byte, Short, Integer, Long, Float, Double) also provide a *static* method of type *parseXXXX(String s)* that converts Strings to primitive type numbers.
 For example:
 ```Java
-int Integer.parseInt(String s);
+public static int Integer.parseInt(String s);
 ```
+
+## Converting from Number to String
+
+### implicit way
+
+- concatenate number with an empty string:
+```Java
+int a = 0;
+String s = "" + a;
+```
+The conversion is handled in the background.
+
+### String.valueOf()
+
+String class provides a static *valueOf()* method to convert numbers to String.
+
+### toString()
+
+Each number class (Byte, Short, Integer, Long)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--
