@@ -1,7 +1,9 @@
 
 # Date Classes
 
-Four classes that deal only with date information, without respect to time or timezone:
+Date and Time API provides:
+    - 4 classes
+that
 
 - LocalDate
 - YearMonth

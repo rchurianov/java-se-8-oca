@@ -9,6 +9,30 @@
     - can this class be instantiated?
     - constructors
     - basic methods
+
+- LocalTime class
+    - whether it can called as a static class?
+      It is a general purpose class. It is not static by itself.
+      It has static methods: now(), parse(), of(), etc.
+    - does it have static methods?
+      Yes. At least those: now(), parse(), of(), etc.
+    - can this class be instantiated?
+      Yes. It is a general purpose class for creating objects. It is not abstract.
+    - constructors
+      Does not have constructors, apart from default that is provided by the platform.
+      An instance can be instantiated with methods: now(), parse(), of(), and maybe some other methods.
+    - basic methods
+        - static
+            - now()
+            - parse()
+            - of()
+        - instance
+            - compareTo()
+            - equals()
+            - getHour()
+            - getMinute()
+            - getSecond()
+            - getNano()
 - Period class
     - whether it is a static class?
     - can it be instantiated?
