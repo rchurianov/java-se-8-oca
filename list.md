@@ -3,7 +3,7 @@
 
 ## Date and Time classes
 
-- LocalDate class
+- LocalDate  class
     - whether it can called as a static class?
     - does it have static methods?
     - can this class be instantiated?

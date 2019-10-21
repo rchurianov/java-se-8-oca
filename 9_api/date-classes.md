@@ -2,9 +2,11 @@
 # Date Classes
 
 Date and Time API provides:
-    - 4 classes
-that
-
+    - 4 classes for dealing with date information
+    - without:
+        - time
+        - timezone
+:
 - LocalDate
 - YearMonth
 - MonthDay
@@ -17,6 +19,11 @@ that
 - this.with(...)
 - getter methods to obtain information about the given date
     - getDayOfWeek
+
+```Java
+LocalDate date = LocalDate.of(2000, Month.NOVEMBER, 20);
+LocalDate nextWed = date.with(TemporalAdjusters.next(DayOfWeek.WEDNESDAY));
+```
 
 ## YearMonth
 
