@@ -1,13 +1,42 @@
 
 # Primitive Types
 
+Java is statically typed.
+Each variable should be declared before it can be used.
+Declaration involves specifying variable's type and name.
+
+## Eight Primitive Data Types
+
+1. byte [-128; 127]
+2. short [-32768; 32767]
+3. int [-2^31; 2^31 - 1]
+4. long int [-2^63; 2^63-1]
+5. float [-2^31; 2^31-1]
+6. double [-2^31; 2^31-1]
+7. boolean {true; false}
+8. char 2^16 i.e. 16-bit unicode character
+
 ## Byte 8
 
-Range [-128, 127] = [-2^8, 2^8 - 1].
+(!): signed
+
+Range [-128, 127] = [-2^7, 2^7 - 1]
+
+2^2 = 4
+2^3 = 8
+2^4 = 16
+2^5 = 32
+2^6 = 64
+2^7 = 128
+2^8 = 256
 
 ## Short 16
 
-Range [-2^16, 2^16 - 1].
+(!): signed
+
+2^15 = 32768
+
+Range [-2^15, 2^15 - 1].
 
 ## Integer 32
 
@@ -31,7 +60,7 @@ char[] charArray = { 'a', 'b', 'c', 'd', 'e' };
 
 https://stackoverflow.com/questions/21317631/java-char-int-conversions?noredirect=1&lq=1
 
-In short, you can assign an int to a char if the assigned int fits into [0, 2^16 - 1].
+In short, you can assign an int to a char if the assigned int fits into [0, 2^16 - 1] (i.e. [0, 65535]).
 
 char c = 7; // will assign ascii symbol with code 7
 Character var = 7; // will create on object of type Character with the value of ascii character with code 7

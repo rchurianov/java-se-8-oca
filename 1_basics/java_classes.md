@@ -50,7 +50,7 @@ public class DataArtist {
 }
 ```
 
-The complier does not consider return type when differentiating methods.
+The compiler does not consider return type when differentiating methods.
 
 Can not:
 - declare two methods with the same parameters and different return types
