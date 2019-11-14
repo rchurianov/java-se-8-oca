@@ -262,6 +262,22 @@ Thus, in the face of concurrent modification? the iterator fails quickly and cle
     - *static import* statement gives a way to import static constants and
     method so that we do not need to prefix those static members with their
     class name
+- abstract class
+    - declared *abstract*
+    - may or may not include abstract methods
+    - can not be instanciated
+    - but can be subclassed
+    - if a class includes abstract methods it should be declared abstract
+    - a subclass either provides implementations for abstract methods or is declared abstract itself
+    - may have static fields and static members
+
+### Constructors
+
+- Java adds *super()* as the first line in constructor if no call to this() or super(...) is made explicitly.
+
+- If a constructor *with* arguments is provided then Java does not add a *no argument* constructor (!).
+
+    - this is valid for both abstract and concrete class
 
 
 - print
@@ -327,10 +343,13 @@ expression has type int
     - System.out.println(int i = 1); will generate compile time error
 - String.substring method bounds: inclusive / exclusive ?
 - comparing String and StringBuilder with equals method in both directions
-    - the only viable method to compare String an StringBuilder through equals() method:
+    - the only viable method to compare String and a StringBuilder through equals() method:
     <String>.equals(<StringBuilder>.toString())
 - compare string with comparison operator
     - Strings should be compared with equals() method
+    - what kind of Exception is generated?
+        - surprisingly - no exception
+        - if we compare one string to another, and they are equal, we might get a "true" comparison result, because of some behind the scenes actions carried out by java (?)
 
 ## Exceptions
 

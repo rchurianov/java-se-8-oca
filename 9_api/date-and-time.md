@@ -61,3 +61,23 @@ Key methods:
 static LocalTime.of(int hour, int minute)
 static LocalTime.of(int hour, int minute, int second)
 static LocalTime.of(int hour, int minute, int second, int nanoOfSecond)
+
+## Constants
+
+LocalTime.MAX = 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---

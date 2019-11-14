@@ -1,15 +1,21 @@
-
+cd
 # StringBuilder class
 
 ## Length and Capacity
 
 *StringBuilder Constructors*
-| Constructor | Description |
-| ----------- | ----------- |
-| StringBuilder() | Creates an empty string builder. Initial capacity: 16. |
-| StringBuilder(CharSequence cs) | Creates StringBuilder from CharSequence with extra 16 trailing empty elements |
-| StringBuilder(int initCapacity) | Creates an empty StringBuilder with specified capacity |
-| StringBuilder(String s) | Creates StringBuilder from specified String with extra 16 trailing empty elements |
+
+| Constructor                     | Description                               |
+| ------------------------------- | ----------------------------------------- |
+| StringBuilder()                 | Creates an empty string builder.          |
+|                                 | Initial capacity: 16.                     |
+| StringBuilder(CharSequence cs)  | Creates StringBuilder from CharSequence   |
+|                                 | with extra 16 trailing empty elements     |
+| StringBuilder(int initCapacity) | Creates an empty StringBuilder            |
+|                                 | with specified capacity                   |
+| StringBuilder(String s)         | Creates StringBuilder from specified      |
+|                                 | String with extra 16                      |
+|                                 | trailing empty elements                   |
 
 ## Printing StringBuilder to system out
 
@@ -23,3 +29,21 @@ will yeld:
 ```
 doT saw I was toD
 ```
+
+## StringBuilder.length() method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---

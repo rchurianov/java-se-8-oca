@@ -3,14 +3,188 @@
 # Overview
 
 1. Java Basics
+    1.1 Variables
+        20 min on variable types
+        10-15 min on naming conventions
+    1.2 Classes
+        10 min intro to classes
+    1.3 Compiling simple programs
+        5 min
+    1.4 Creating and Using Packages
+        10 min
+    1.5 Using Package Members
+        10 min - common info
+        5 min - static importing
+    1.6 Object-Oriented Programming Concepts
+        5 min - quick intro to OOP
+    ________
+        1.5 hrs
+
 2. Working with Data Types
-3. Using operators and decision contructs
+    2.1 Variable
+        10 min - rehearse
+    2.2 Initializing fields
+        10-15 min - static and instance members
+    2.3 Primitive Data types
+        20 min - data types
+    2.4 The Number Classes
+        10 min - review
+    2.5 Inheritance
+        20-25 min - review + what you can do in a subclass
+    2.6 Declaring Member Variables
+        10 min - access modifiers
+    2.7 Creating Objects
+        10 min - review
+    2.8 Using Objects
+        15-20 min - fields, methods, garbage collector
+    ________
+        2 hrs
+
+3. Using operators and decision constructs
+    3.1 Operators
+        10 min - review
+    3.2 Assignment, Arithmetic, Unary operators
+        20 min
+    3.3. Equality, Relational, Conditional Operators
+        20 min
+    3.4 Bitwise and Bit Shift Operators
+        10 - 60 min
+    3.5 Expressions, Statements, Blocks
+        5-10 min - review
+    3.6 Object as a Superclass
+        15-20 min
+    3.7 The if-then and if-then-else Statement
+        10 min - review
+    3.8 Ternary Constructs
+        10 min - review
+    3.9 The switch statement
+        10-15 min - review
+    ________
+        2 hrs
+
 4. Creating and using Arrays
-5. Using Loop construcs
+    4.1 Declare, instantiate, initialize - one-dimensional
+    4.2 Multidimensional
+    ________
+        30 min
+
+5. Using Loop constructs
+    5.1 The while and do-while Statements
+        10 min - review
+    5.2 The for Statement
+        15 min - review
+    5.3 The while and do-while Statements
+        5 min - review
+    5.4 Summary of Control Flow Statements
+        5 min - review
+    5.5 Branching Statements
+        10 min - review
+    ________
+        45 min
+
 6. Working with methods and encapsulation
+    6.1 Returning a Value from a Method
+        5 min - review
+    6.2 Defining Methods
+        10 min
+    6.3 Variables
+        10 min
+    6.4 Understanding Class Members
+        15 min
+    6.5 Default Methods
+        30 min - reading?
+    6.6 Defining Methods
+        10 min
+    6.7 Providing Constructors for Your Classes
+        5 min
+    6.8 Controlling access to members of a class
+        10 min
+    6.9 Inheritance
+        10-15 min - review
+    6.10 Inner Class Example
+        15 min
+    6.11 Nested Classes
+        20 min
+    6.12 Passing Information to a Method or a Constructor
+        15-20 min
+    ________
+        2 hrs 25 min
+
 7. Working with inheritance
+    7.1 Inheritance
+        20-25 min - review
+    7.2 Overriding and Hiding Methods
+        20-25 min - review
+    7.3 Polymorphism
+        15 min
+    7.4 Creating Objects
+        20 min
+    7.5 Using Objects
+        15 min - review
+    7.6 Inheritance
+        15 min - review
+    7.7 Using the Keyword super
+        15 min
+    7.8 Using the this Keyword
+        5-10 min
+    7.9 Abstract Methods and Classes
+        20 min
+    7.10 Defining an Interface
+        10 min
+    7.11 Implementing an interface
+        10 min
+    ________
+        3 hrs
+
 8. Handling Exceptions
+    8.1 The Catch or Specify Requirement
+        5-10 min
+    8.2 Catching and Handling Exceptions
+        10 min
+    8.3 The *try* Block
+        5 min
+    8.4 The catch Blocks
+        10 min
+    8.5 What Is an Exception?
+        5 min
+    8.6 Advantages of Exceptions
+        20 min
+    8.7 Catching Exceptions
+        30-45 min - new material?
+    ________
+        1 hrs 45 min
+
 9. Working with selected classes from the Java API
+    9.1 The StringBuilder Class
+        20 min
+    9.2 Summary of Characters and Strings
+        5 min
+    9.3 Strings
+        10 min
+    9.4 Converting Between Numbers and Strings
+        10-15 min
+    9.5 Comparing Strings and portions of Strings
+        10 min
+    9.6 Manipulating Characters in a String
+        20 min
+    9.7 Date and Time classes
+        5 min - review
+    9.8 Date Classes
+        10 min - review
+    9.9 Parsing and Formatting
+        15 min
+    9.10 Period and Duration
+        15 min
+    9.11 The List Interface
+        45 min
+    9.12 List Implementations
+        10 min - review
+    9.13 Lambda Expressions
+        1 hr - 1.5 hrs
+    9.14 Aggregate Operations
+        1 hr
+    ________
+        5.5 hrs
 
 9 Sections.
 Each section corresponds to a topic in Java Tutorials.
@@ -20,10 +194,10 @@ Each section corresponds to a topic in Java Tutorials.
 ### Item 1. Variables
 
 Object has a state.
-State of an object is stored in object's fileds.
+State of an object is stored in object's fields.
 
 - Conventions for naming a field:
-Camel-Case with fisrt letter in the name being lower case.
+Camel-Case with first letter in the name being lower case.
 
 - What primitive data types exist in Java?
 	- byte
