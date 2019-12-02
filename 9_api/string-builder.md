@@ -1,21 +1,21 @@
-cd
+
 # StringBuilder class
 
 ## Length and Capacity
 
+Length - the number of characters in the sequence.
+
+Unlike Strings, StringBuilder has capacity.
+Capacity - the number of characters that has been allocated.
+
+StringBuilder.length()
+
 *StringBuilder Constructors*
 
-| Constructor                     | Description                               |
-| ------------------------------- | ----------------------------------------- |
-| StringBuilder()                 | Creates an empty string builder.          |
-|                                 | Initial capacity: 16.                     |
-| StringBuilder(CharSequence cs)  | Creates StringBuilder from CharSequence   |
-|                                 | with extra 16 trailing empty elements     |
-| StringBuilder(int initCapacity) | Creates an empty StringBuilder            |
-|                                 | with specified capacity                   |
-| StringBuilder(String s)         | Creates StringBuilder from specified      |
-|                                 | String with extra 16                      |
-|                                 | trailing empty elements                   |
+    - StringBuilder()
+    - StringBuilder(CharSequence cs)
+    - StringBuilder(int initCapacity)
+    - StringBuilder(String s)
 
 ## Printing StringBuilder to system out
 

@@ -106,6 +106,7 @@ with java 8 uninitialized local variables produce an error
 | double         | 0.0                   |
 | char           | *nothing*             |
 | boolean        | false                 |
+| String         | null                  |
 
 - default values for primitive types wrapper classes
 All wrapper classes are reference types.
@@ -356,14 +357,71 @@ expression has type int
 - What is a checked Exception?
     - *checked exception*:
         - should be anticipated by the application
-        - application should be able to recover from checked exceptions
+        - application should be able to recover from checked exceptions descend from Exception class
 - What are unchecked Exceptions?
     - errors
     - runtime exceptions
 
+- what if a method declares an exception but there is no try-catch block when it is called?
+    - compile-time error
 
+- exception hierarchy
+    - learn :)
+    - Exception (direct checked ancestors)
+        - FileNotFoundException
+    - RuntimeException ancestors
+        - ClassCastException
 
+- both Exception and Error extend **Throwable**
+- errors are not caught by exceptions
+    - for example StackOverflowError (VM error) is not caught
 
+- If an Exception that is lower in the hierarchy is caught *after* an exception that is higher in the hierarchy a Compile-time error arises. In other words compilation fails.
+
+- any question can contain an attention check
+    - for example division by zero: 1/0
+    - division will generate exception
+
+- I have to review inheritance and polymorphism principles in Java once again
+
+## Methods
+
+### Caveats that are found in the testing questions
+
+- overloading
+    - which overloading method is invoked is decided at compile time by the signature of the call to the method
+- encapsultation
+    - read-only field:
+        - private
+        - getter method
+- passing references
+    - references are passed by value. That means that a method will work with its own copy of a reference.
+- passing primitive types
+    - primitive types are also passed by value
+- local variables can not be named the same as the methods parameters
+- a method can be named in same way as constructor
+
+## Oracle 1st Set of Example Questions
+
+1. D)
+2. C) D)
+3. A)
+4. B)
+5. C)
+6. D)
+7. C)
+8. C)
+
+## Oracle's 2nd Set of Example Questions
+
+1. C) + C)
+2. D) - C)
+3. D) - B)
+4. A) + A)
+5. B) - D)
+6. A) + A)
+7. B) - D)
+8. D) - B)
 
 
 
